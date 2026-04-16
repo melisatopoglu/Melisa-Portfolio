@@ -39,9 +39,9 @@ body {
 }
 
 h1 {
-  font-size: 52px;
+  font-size: 64px;
   line-height: 1.1;
-  margin: 0;
+  font-weight: 700;
 }
 
 h1 span {
@@ -237,7 +237,7 @@ h3 {
   }
 
   h1 {
-    font-size: 38px;
+    font-size: 52px;
   }
 
   h2 {
@@ -262,7 +262,8 @@ h3 {
 }
 
 .name-highlight {
-  background: linear-gradient(135deg, #a855f7, #7e22ce);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #1f1f1f;     /* siyah */
+  font-style: italic; /* italic geri geldi */
+  font-weight: 600;   /* çok kalın değil, dengeli */
 }
+
