@@ -191,7 +191,7 @@ export default function MelisaPersonalWebsite() {
               </h2>
               <p className="mt-4 max-w-xl text-base leading-8 text-neutral-300">
                 I’m open to graduate, internship, and entry-level opportunities in business analytics,
-                data, reporting, customer insights, and related areas.
+                data analytics, BI, AI,reporting, customer insights, and related areas.
               </p>
             </div>
 
