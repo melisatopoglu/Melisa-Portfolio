@@ -133,7 +133,7 @@ h3 {
 
 .skills-box {
   background: white;
-  border: 1px solid #e5e5e5;
+  border: 1.5px solid #a855f7;
   border-radius: 28px;
   padding: 24px;
 }
@@ -147,7 +147,7 @@ h3 {
 
 .skills span {
   background: #f7f7f7;
-  border: 1px solid #e1e1e1;
+  border: 1.5px solid #a855f7;
   padding: 10px 14px;
   border-radius: 999px;
   font-size: 14px;
@@ -162,7 +162,7 @@ h3 {
 
 .card {
   background: white;
-  border: 1px solid #e5e5e5;
+ border: 1.5px solid #a855f7;
   border-radius: 28px;
   padding: 24px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.04);
