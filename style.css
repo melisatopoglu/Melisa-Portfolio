@@ -105,29 +105,27 @@ h3 {
 /* 💜 PHOTO BOX – FULL PREMIUM VERSION */
 .photo-box {
   width: 220px;
-  height: 320px;
+  height: 290px;
   margin: 0 auto;
-  padding: 6px; /* 🔥 10px → 6px yaptık */
+  padding: 6px;
   background: #f5f3ff;
   border-radius: 28px;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden; /* 🔥 önemli */
+  overflow: hidden;
 }
-
 
 .profile-img {
   width: 100%;
   height: 100%;
+  display: block;
   object-fit: cover;
   object-position: center top;
   border-radius: 22px;
-  display: block; /* 🔥 boşluk fix */
   box-shadow: 0 10px 30px rgba(168, 85, 247, 0.25);
   transition: all 0.3s ease;
 }
-
 
 .profile-img:hover {
   transform: scale(1.03);
