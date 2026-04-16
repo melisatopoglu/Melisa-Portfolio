@@ -196,7 +196,7 @@ export default function MelisaPersonalWebsite() {
             </div>
 
             <div className="space-y-3 text-sm text-neutral-300">
-              <p>Email: yourname@email.com</p>
+              <p>Email: topoglumelisa@gmail.com</p>
               <p>LinkedIn: linkedin.com/in/yourprofile</p>
               <p>Location: Melbourne / Australia</p>
             </div>
