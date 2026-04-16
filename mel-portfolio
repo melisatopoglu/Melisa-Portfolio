@@ -1,0 +1,208 @@
+export default function MelisaPersonalWebsite() {
+  const skills = [
+    "Business Analytics",
+    "Data Analysis",
+    "Machine Learning",
+    "CRM & Admin Systems",
+    "Excel / Power BI / Tableau",
+    "Python / SQL / RapidMiner / R",
+    "Stakeholder Communication",
+    "Customer Insights",
+  ];
+
+  const projects = [
+    {
+      title: "Predictive Analytics & Machine Learning Projects",
+      description:
+        "Built academic and practical analytics projects using classification, clustering, and data-driven business reporting to turn raw data into actionable insights.",
+    },
+    {
+      title: "Earthwatch Australia Internship",
+      description:
+        "Supported data input and process development tasks while gaining hands-on experience with operational workflows, data handling, and sustainability-focused work.",
+    },
+    {
+      title: "CRM, Admin & Customer-Facing Experience",
+      description:
+        "Worked across retail, administration, and student-facing environments, strengthening communication, accuracy, and customer-focused problem solving.",
+    },
+  ];
+
+  const experience = [
+    {
+      role: "Master of Business Analytics Student",
+      org: "Deakin University",
+      detail:
+        "Final trimester student specialising in AI in Business, with a strong interest in analytics, machine learning, and turning business problems into practical solutions.",
+    },
+    {
+      role: "Data Input & Process Development Intern",
+      org: "Earthwatch Australia",
+      detail:
+        "Contributed to data-related tasks and process improvement in a mission-driven organisation, gaining real-world exposure to systems, structure, and impact-focused work.",
+    },
+    {
+      role: "Sales / Admin / Customer Support Experience",
+      org: "Various Roles",
+      detail:
+        "Developed strong communication, adaptability, and service skills through fast-paced roles involving customer interaction, organisation, and operational support.",
+    },
+  ];
+
+  return (
+    <div className="min-h-screen bg-neutral-50 text-neutral-900">
+      <section className="relative overflow-hidden border-b border-neutral-200 bg-white">
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-100 via-white to-neutral-100" />
+        <div className="relative mx-auto grid max-w-6xl gap-10 px-6 py-20 md:grid-cols-2 md:px-10 lg:px-16">
+          <div className="flex flex-col justify-center">
+            <p className="mb-4 text-sm font-medium uppercase tracking-[0.25em] text-neutral-500">
+              Personal Website
+            </p>
+            <h1 className="max-w-xl text-4xl font-semibold leading-tight md:text-6xl">
+              Hi, I’m <span className="italic">Melisa</span> — a business analytics student building a career in data, AI, and insight-driven work.
+            </h1>
+            <p className="mt-6 max-w-xl text-base leading-7 text-neutral-600 md:text-lg">
+              I enjoy translating data into meaningful decisions, learning new tools quickly,
+              and combining analytical thinking with communication and business awareness.
+            </p>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <a
+                href="#about"
+                className="rounded-2xl bg-neutral-900 px-5 py-3 text-sm font-medium text-white shadow-sm transition hover:-translate-y-0.5"
+              >
+                About Me
+              </a>
+              <a
+                href="#projects"
+                className="rounded-2xl border border-neutral-300 bg-white px-5 py-3 text-sm font-medium text-neutral-800 transition hover:-translate-y-0.5"
+              >
+                View My Work
+              </a>
+            </div>
+          </div>
+
+          <div className="flex items-center justify-center">
+            <div className="w-full max-w-md rounded-[2rem] border border-neutral-200 bg-white p-6 shadow-lg">
+              <div className="rounded-[1.5rem] bg-neutral-100 p-6">
+                <div className="mb-6 h-48 rounded-[1.5rem] border border-dashed border-neutral-300 bg-white/70 flex items-center justify-center text-center text-neutral-400 px-6">
+                  Add your photo here
+                </div>
+                <div className="space-y-3">
+                  <div className="rounded-2xl bg-white p-4 text-sm text-neutral-600 shadow-sm">
+                    Based in Australia
+                  </div>
+                  <div className="rounded-2xl bg-white p-4 text-sm text-neutral-600 shadow-sm">
+                    Interested in Data Analyst / Business Analyst / AI-related roles
+                  </div>
+                  <div className="rounded-2xl bg-white p-4 text-sm text-neutral-600 shadow-sm">
+                    Open to graduate, internship, and entry-level opportunities
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" className="mx-auto max-w-6xl px-6 py-20 md:px-10 lg:px-16">
+        <div className="grid gap-10 md:grid-cols-[1.1fr_0.9fr]">
+          <div>
+            <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-neutral-500">
+              About Me
+            </p>
+            <h2 className="text-3xl font-semibold md:text-4xl">
+              A motivated early-career professional with a blend of analytics, business, and people skills.
+            </h2>
+            <p className="mt-6 max-w-2xl text-base leading-8 text-neutral-600">
+              I am currently completing my Master of Business Analytics and building hands-on experience across
+              analytics, reporting, machine learning, administration, and customer-facing roles. My background has
+              taught me how to learn fast, adapt quickly, and stay solution-focused in dynamic environments.
+            </p>
+            <p className="mt-4 max-w-2xl text-base leading-8 text-neutral-600">
+              I’m especially interested in roles where I can combine data, business understanding, and communication
+              to help teams make better decisions and improve processes, customer outcomes, or operational performance.
+            </p>
+          </div>
+
+          <div className="rounded-[2rem] border border-neutral-200 bg-white p-6 shadow-sm">
+            <h3 className="text-lg font-semibold">Core Skills</h3>
+            <div className="mt-5 flex flex-wrap gap-3">
+              {skills.map((skill) => (
+                <span
+                  key={skill}
+                  className="rounded-full border border-neutral-200 bg-neutral-50 px-4 py-2 text-sm text-neutral-700"
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" className="border-y border-neutral-200 bg-white">
+        <div className="mx-auto max-w-6xl px-6 py-20 md:px-10 lg:px-16">
+          <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-neutral-500">
+            Experience
+          </p>
+          <h2 className="text-3xl font-semibold md:text-4xl">What I’ve been building so far</h2>
+
+          <div className="mt-10 grid gap-6 md:grid-cols-3">
+            {experience.map((item) => (
+              <div
+                key={item.role}
+                className="rounded-[2rem] border border-neutral-200 bg-neutral-50 p-6 shadow-sm"
+              >
+                <p className="text-sm text-neutral-500">{item.org}</p>
+                <h3 className="mt-2 text-xl font-semibold">{item.role}</h3>
+                <p className="mt-4 text-sm leading-7 text-neutral-600">{item.detail}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" className="mx-auto max-w-6xl px-6 py-20 md:px-10 lg:px-16">
+        <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-neutral-500">
+          Projects
+        </p>
+        <h2 className="text-3xl font-semibold md:text-4xl">Selected work and focus areas</h2>
+
+        <div className="mt-10 grid gap-6 md:grid-cols-3">
+          {projects.map((project) => (
+            <div
+              key={project.title}
+              className="rounded-[2rem] border border-neutral-200 bg-white p-6 shadow-sm transition hover:-translate-y-1"
+            >
+              <h3 className="text-xl font-semibold">{project.title}</h3>
+              <p className="mt-4 text-sm leading-7 text-neutral-600">{project.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="border-t border-neutral-200 bg-neutral-900 text-white">
+        <div className="mx-auto max-w-6xl px-6 py-20 md:px-10 lg:px-16">
+          <div className="grid gap-8 md:grid-cols-[1fr_auto] md:items-end">
+            <div>
+              <p className="text-sm uppercase tracking-[0.2em] text-neutral-400">Contact</p>
+              <h2 className="mt-3 text-3xl font-semibold md:text-4xl">
+                Let’s connect.
+              </h2>
+              <p className="mt-4 max-w-xl text-base leading-8 text-neutral-300">
+                I’m open to graduate, internship, and entry-level opportunities in business analytics,
+                data, reporting, customer insights, and related areas.
+              </p>
+            </div>
+
+            <div className="space-y-3 text-sm text-neutral-300">
+              <p>Email: yourname@email.com</p>
+              <p>LinkedIn: linkedin.com/in/yourprofile</p>
+              <p>Location: Melbourne / Australia</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
